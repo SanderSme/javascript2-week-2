@@ -23,30 +23,30 @@
 // console.log("after map:", newNames);
 
 //example 2:
-const triangles = [
-  {
-    base: 100,
-    height: 200,
-  },
-  {
-    base: 50,
-    height: 100,
-  },
-  {
-    base: 600,
-    height: 700,
-  },
-];
+// const triangles = [
+//   {
+//     base: 100,
+//     height: 200,
+//   },
+//   {
+//     base: 50,
+//     height: 100,
+//   },
+//   {
+//     base: 600,
+//     height: 700,
+//   },
+// ];
 
-//calculate the area of the triangles inside the given triangles array
-//use map() to return an array
-//Return: [10000, 2500, 2.1x10^5]
-// const areas = triangles.map(
-//   (triangles) => (triangles.base * triangles.height) / 2
-// );
+// //calculate the area of the triangles inside the given triangles array
+// //use map() to return an array
+// //Return: [10000, 2500, 2.1x10^5]
+// // const areas = triangles.map(
+// //   (triangles) => (triangles.base * triangles.height) / 2
+// // );
+// // console.log(areas);
+
+// const areas = triangles.map((triangles) => {
+//   return (triangles.base * triangles.height) / 2;
+// });
 // console.log(areas);
-
-const areas = triangles.map((triangles) => {
-  return (triangles.base * triangles.height) / 2;
-});
-console.log(areas);
